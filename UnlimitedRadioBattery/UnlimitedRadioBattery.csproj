@@ -7,8 +7,8 @@
     <ProjectGuid>{B2CC5EC6-7E45-449D-9BB6-B9E0D1A41F08}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UsingRadioBattery</RootNamespace>
-    <AssemblyName>UsingRadioBattery</AssemblyName>
+    <RootNamespace>UnlimitedRadioBattery</RootNamespace>
+    <AssemblyName>UnlimitedRadioBattery</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -33,6 +34,9 @@
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\EXILED-3.0.0-57\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-Publicized">
+      <HintPath>..\..\..\..\..\..\LocalData\EXILED\References\Assembly-CSharp-Publicized.dll</HintPath>
     </Reference>
     <Reference Include="Exiled.API">
       <HintPath>..\..\..\..\EXILED-3.0.0-57\EXILED\Plugins\dependencies\Exiled.API.dll</HintPath>
