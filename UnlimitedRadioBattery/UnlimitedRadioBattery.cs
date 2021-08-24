@@ -6,7 +6,7 @@ namespace UnlimitedRadioBattery
     public sealed class UnlimitedRadioBattery : Plugin<Config>
     {
         public override string Author => "SoraCént";
-        public override Version Version => new Version(0, 1, 0);
+        public override Version Version => new Version(0, 1, 1);
         public override Version RequiredExiledVersion => new Version(3, 0, 0);
 
         public UnlimitedRadioBatteryHandler Handler;
