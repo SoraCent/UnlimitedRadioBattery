@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnlimitedRadioBattery", "UnlimitedRadioBattery\UnlimitedRadioBattery.csproj", "{B2CC5EC6-7E45-449D-9BB6-B9E0D1A41F08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2CC5EC6-7E45-449D-9BB6-B9E0D1A41F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2CC5EC6-7E45-449D-9BB6-B9E0D1A41F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2CC5EC6-7E45-449D-9BB6-B9E0D1A41F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2CC5EC6-7E45-449D-9BB6-B9E0D1A41F08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E1D17AF-D5DE-4AFA-BAAD-1C9FB5BD7017}
+	EndGlobalSection
+EndGlobal
